@@ -1,0 +1,23 @@
+.header {
+  background:linear-gradient(124deg, #1ddde8,#1de840,#2b1de8,#e8b71d, #e3e81d, #ff40af);;
+  background-size: 1800% 1800%;
+  animation: rainbow 15s ease infinite;
+  height: 10vh;
+  color: #007bff;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+}
+@keyframes rainbow { 
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+.header .logo{
+  color:#fff;
+}
+.header button {
+  float: left;
+}
+

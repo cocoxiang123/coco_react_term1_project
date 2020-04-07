@@ -1,0 +1,19 @@
+.DisplayRow{
+  background-color:#007bff ;
+  display: flex;
+  justify-content: space-between;
+}
+.Dtitle,.Dnote{
+  color:rgb(59, 55, 55);
+  text-transform: uppercase;
+}
+.contentBody,.titleBody{
+  font-size:25px;
+}
+.eachNote{
+  transition: 0.2s ease;
+  margin:5px;
+}
+.eachNote:hover{
+  transform: scale(1.05);
+}
