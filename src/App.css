@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+.App {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  position: relative;
+
+}
+/* nav header */
+.header {
+    background:linear-gradient(124deg, #1ddde8,#1de840,#2b1de8,#e8b71d, #e3e81d, #ff40af);;
+    background-size: 1800% 1800%;
+    animation: rainbow 15s ease infinite;
+    height: 10vh;
+    color: #007bff;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+  }
+  @keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+  }
+  .header .logo{
+    color:#fff;
+    padding:1rem;
+    text-decoration: none;
+    text-transform: capitalize;
+
+  }
+  /* end nav header */
+ /* add/edit form  */
+ .Page{
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+}
+.formContainer{
+  display:flex;
+  flex-direction: column;
+  border:1px solid grey;
+  width:500px;
+  height:500px;
+  margin-top:50px;
+  padding:0;
+  border-radius: 5px;
+}
+.pageName{
+  text-align: center;
+  background-color: #fde74c;
+  background-image: linear-gradient(319deg, #fde74c 0%, #32ff7a 37%, #2fcbe0 100%);  
+  color:#fff;
+  font-size: 28px;
+  border-radius: 5px 5px 0 0 ;
+  padding:20px;
+}
+.Form {
+  margin-top:50px;
+  margin-left:100px;
+ 
+}
+.Form label{
+  font-weight: bold; 
+  padding:10px;
+  font-size:18px;
+  text-transform: uppercase;
+}
+.Form input{
+  border-radius: 3px;
+  border:1px solid #62a2e6;
+  width:80%;
+  margin-left:10px;
+
+}
+.Form input:focus{
+  border-radius: 5px;
+  border:2px solid #007bff;
+  outline:none;
+}
+.Form textarea{
+  width:80%;
+  resize: vertical;
+  border-radius: 3px;
+  margin-left:10px;
+  border-radius: 5px;
+  border:1px solid #62a2e6;
+  overflow: visible;
+  min-height: 90px;
+
+}
+.Form textarea:focus{
+  border-radius: 5px;
+  border:2px solid #007bff;
+  outline:none;
+}
+.Form .button{
+  margin-left:100px;
+  margin-top:10px;
+}
+/* end of form */
+/* home style */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  background: linear-gradient(to right, blue 0%, purple 100%);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.displayAll{
+  width:70%;
+}
+
+/* end of home */
+
+/* row style */
+.displayRowTitle{
+  background-color:#007bff ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.displayRowTitle h3{
+  color:rgb(59, 55, 55);
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.titleBody{
+  font-size:25px;
+  text-decoration: none;
+  padding-left:10px;
+  padding:10px;
+  margin:5px 0;
+}
+.eachNote{
+  transition: 0.2s ease;
+  margin:5px;
+}
+.eachNote:hover{
+  transform: scale(1.05);
+}
+/* /end of row */
